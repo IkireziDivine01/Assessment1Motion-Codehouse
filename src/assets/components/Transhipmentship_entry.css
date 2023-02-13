@@ -82,3 +82,108 @@ button{
     grid-template-columns: auto auto;
     font-weight: bold;
 }
+
+.productL{
+   display : grid; 
+   grid-template-columns: auto auto; 
+   column-gap : 35em; 
+}
+
+.newProduct{
+    margin-right : 8em; 
+    border-color : #26AAE1; 
+    background-color : #fff; 
+    font-size : 14px; 
+    border : 2px solid; 
+    border-radius : 5px; 
+}
+
+.upload{
+    padding-left : 10em; 
+    font-weight : bold;
+}
+
+.cancelB {
+    color: #fff;
+    background-color: #000; 
+    margin-left : 10em;
+}
+
+.nextB {
+    background-color : #26AAE1; 
+    color : #fff; 
+    margin-right : 7em;
+}
+
+.cnB{
+    display : grid; 
+    grid-template-columns : auto auto; 
+    column-gap : 52em;
+}
+
+/* responsive on device with max width : 600px */
+
+@media screen and (max-width : 600px) {
+    .mainDiv>h2 {
+        padding-left: 1em;
+        padding-top: 10px;
+    }
+    .try {
+        display: inline-block;
+        padding-left: 1em;
+        padding-top: 2px;
+    }
+
+    label>p {
+        margin-left: 1em;
+    }
+
+    hr {
+        margin-left: 1em;
+        margin-top: 1px;
+        margin-right: 15em;
+    }
+
+    .productL {
+        display: inline;
+    }
+
+    .output {
+        margin-left: 1em;
+        word-spacing: 2em;
+        margin-right: 56em;
+    }
+
+    .newProduct {
+        margin-right: 74em;
+
+    }
+
+    hr {
+        margin-right: 56em;
+    }
+
+    label>input{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .upload {
+        padding-left: 1em;
+    }
+
+    .saveP {
+        margin-left: 8em;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .cancelB{
+        margin-left: 1em;
+    }
+
+    .cnB{
+        display: inline;
+    }
+
+}

@@ -12,3 +12,11 @@ form{
   margin-left: 10em;
   margin-bottom: 1em;
 }
+
+@media screen and (max-width : 600px) {
+  form{
+    margin-left: 1em;
+    width: 20%;
+    height: 100px;
+  }
+}

@@ -22,7 +22,7 @@ const AddNewHandlers = () => {
             </Grid>
             </div>
 
-            <div style={{paddingLeft : '12em', marginTop : '4em'}}>
+            <div className = "bodyDiv">
             <p>Full Name</p>
             <input type="text" name="name" placeholder="Enter handler's name"/>
             <p>ID Number</p>
@@ -30,7 +30,7 @@ const AddNewHandlers = () => {
             <p>Phone Number</p>
             <input type="text" name="name" placeholder="Enter handler's phone number"/>
             </div>
-            <Button variant="contained" style={{paddingRight : '2em', marginLeft : '14em', marginTop: '2em', backgroundColor : '#26AAE1'}}>ADD</Button>
+            <Button variant="contained" className='buttonB' style={{paddingRight : '2em', marginLeft : '14em', marginTop: '2em', backgroundColor : '#26AAE1'}}>ADD</Button>
         </div>
     )
 }

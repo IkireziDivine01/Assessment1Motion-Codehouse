@@ -22,7 +22,7 @@ const AddNewGood = () => {
             </Grid>
             </div>
 
-            <div style={{paddingLeft : '12em', marginTop : '4em'}}>
+            <div className = "bodyDiv">
             <p>Name</p>
             <input type="text" name="name" placeholder="Name your good"/>
             <p>Dimension (Optional)</p>

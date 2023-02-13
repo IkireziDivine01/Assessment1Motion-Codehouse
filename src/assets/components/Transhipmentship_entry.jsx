@@ -93,16 +93,15 @@ const Transhipment_entry = () => {
                 </label>
             </div>
 
-            <label style={{display : 'grid', gridTemplateColumns : 'auto auto', columnGap : '35em' }}>
+            <label className="productL">
             <p>Product details </p>
 
-            <p style={{marginRight : '8em', borderColor : '#26AAE1', backgroundColor : '#fff', fontSize : '14px', 
-            border : '2px solid', borderRadius : '5px'}} onClick={() => navigate("/AddNewGood")}> <span style={{fontWeight : 'bold', 
+            <p className="newProduct" onClick={() => navigate("/AddNewGood")}> <span style={{fontWeight : 'bold', 
             fontSize : '20px', marginRight : '10px',
              marginLeft : '10px'}}>+</span>Add New Product</p> 
 
             </label>
-            <hr style={{backgroundColor : '#26AAE1'}}/>
+            <hr/>
 
             {/* <p className="output">{message} 
             <Grid container sx={{ color: "text.primary"}}>
@@ -144,14 +143,17 @@ const Transhipment_entry = () => {
                 </div>
                 </div>
                 </label>
+
                 <label>
                 Number of items
                 <input type="text" name="name" placeholder="Enter number of product items" value={numberOfItem} onChange = {(event) => {setNumberOfItem(event.target.value)}} />
                 </label>
+
                 <label>
                 Weight/Item
                 <input type="text" name="name" placeholder="Enter product weight/item" value={weight} onChange = {(event) => {setWeight(event.target.value)}} />
                 </label>
+
                 <label>
                 Price/Item (Optional)
                 <input type="text" name="name" placeholder="Enter price/item" value={price} onChange = {(event) => {setPrice(event.target.value)}} />
@@ -160,11 +162,11 @@ const Transhipment_entry = () => {
 
             <button className="saveP" onClick={handleSubmit} >Save Product</button>
 
-            <p style={{paddingLeft : '10em', fontWeight : 'bold'}}>Upload supporting document</p>
+            <p  className = "upload">Upload supporting document</p>
             <Uploader/>
-            <div style={{display : 'grid', gridTemplateColumns : 'auto auto', columnGap : '52em'}}>
-                <button style={{color: '#fff', backgroundColor: '#000', marginLeft : '10em'}}>Cancel</button>
-                <button style={{backgroundColor : '#26AAE1', color : '#fff', marginRight : '7em'}}>Next</button>
+            <div className="cnB">
+                <button className="cancelB">Cancel</button>
+                <button className="nextB">Next</button>
             </div>
         </div>
     )

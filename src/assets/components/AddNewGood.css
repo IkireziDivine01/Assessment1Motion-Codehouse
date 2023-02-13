@@ -20,3 +20,31 @@ input{
      padding-right: 37.4em;
      font-size: 24px;
 }
+
+.bodyDiv {
+   padding-left : 12em; 
+   margin-top : 4em; 
+}
+
+@media screen and (max-width : 600px) {
+    .header {
+        margin-top: -3.2em;
+        font-size: 10px;
+        display: inline-block;
+        padding-left: 1em;
+    }
+
+    .bodyDiv{
+        padding-left: 2em;
+        padding-right: 10em;
+    }
+
+    .header>h4{
+        margin-top: 1em;
+        font-size: 16px;
+    }
+
+    input{
+        margin-right: 6em;
+    }
+}

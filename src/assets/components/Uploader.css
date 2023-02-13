@@ -1,0 +1,14 @@
+form{
+    background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #9E9E9E;
+  height: 200px;
+  width: 78%;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10em;
+  margin-bottom: 1em;
+}

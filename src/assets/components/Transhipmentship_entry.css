@@ -1,0 +1,84 @@
+.headerDiv{
+    margin-top: 0;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #26AAE1;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.headerDiv>h4{
+    padding-right: 58.8em;
+}
+
+.mainDiv>h2{
+    color: #26AAE1;
+    padding: 2em 0 1em 7em;
+}
+
+.try{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 20px;
+    padding: 2em 2em 1em 10em;
+}
+
+.try>label>input{
+    border: none;
+    background-color: #F8F8F8;
+    color: #9E9E9E;
+    padding: 1em;
+    width: 80%;
+    border-radius: 5px;
+}
+
+label>p{
+    color: #26AAE1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 9em;
+}
+
+hr{
+    background-color: #26AAE1;
+    margin-left: 10em;
+    margin-right: 7.5em;
+    margin-top: 1em;
+}
+
+button{
+    color: #26AAE1;
+    background-color: #fff;
+}
+
+.saveP{
+    border: 2px;
+    background-color: #26AAE1;
+    color: #fff;
+    margin-left: 66em;
+}
+
+.select{
+    background-color: #F8F8F8 ;
+    width: 85%;
+}
+
+.newP{
+    margin-right: 4em;
+}
+
+.output{
+    margin-left: 10em;
+    margin-right: 7em;
+    word-spacing: 12em;
+    border: 2px solid #26AAE1;
+    border-left: 10px solid #26AAE1;
+    background-color: rgba(38, 170, 225, 0.04);
+    padding: 1em;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-weight: bold;
+}
